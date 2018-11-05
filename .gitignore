@@ -3,3 +3,9 @@
 
 #ZIP files
 *.zip
+
+#Thumbs files
+Thumbs.db
+
+#gitignore
+*.gitignore

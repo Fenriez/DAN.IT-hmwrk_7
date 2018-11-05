@@ -38,6 +38,7 @@ html, body {
     width: 46px;
     background: url(../images/logo.png) center no-repeat;
     background-size: cover;
+    transition: 0.3s ease-in;
 }
 .logo__name {
     display: inline-block;
@@ -49,6 +50,7 @@ html, body {
     font-weight: 700;
     line-height: 21px;
     text-transform: uppercase;
+    transition: 0.3s ease-in;
 }
 .logo__name span {
     font-size: 2.9rem;
@@ -56,9 +58,11 @@ html, body {
 
 .logo:hover .logo__img {
     background: url(../images/logo-hover.png) center no-repeat;
+    transition: 0.3s ease-out;
 }
 .logo:hover .logo__name {
     color: #f26522;
+    transition: 0.3s ease-out;
 }
 
 /* Contacts */
@@ -117,6 +121,7 @@ html, body {
     width: 100%;
     padding: 0 40px 17px 20px;
     color: #ffffff;
+    transition: 0.3s ease-out;
 }
 .tour_price {
     position: relative;
@@ -147,14 +152,17 @@ html, body {
     font-size: 1.8rem;
     line-height: 21px;
     text-transform: capitalize;
+    transition: 0.3s ease-out;
 }
 
 .tour_card:hover .tour_card__name {
     color: #f26522;
+    transition: 0.3s ease-out;
 }
 .tour_card:hover .tour_card__details {
     top: 141px;
     background-color: #f26522;
+    transition: 0.3s ease-out;
 }
 
 /* FOOTER */
